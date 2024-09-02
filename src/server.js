@@ -34,9 +34,6 @@ const server = http.createServer(async (req, res) => {
         
         return res.writeHead(201).end()
     }
-
-    
-
     return res.writeHead(404).end('Not found')
 })
 
